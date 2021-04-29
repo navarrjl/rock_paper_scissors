@@ -64,7 +64,7 @@ while True:
     winner = rps_table[player_move][comp_move]
 
     # Declare the winner of the game
-    if winner == player_move
+    if winner == player_move:
         print(name, "WINS!!!")
     elif winner == comp_move:
         print("COMPUTER WINS!!!")
@@ -103,9 +103,9 @@ while True:
         continue
 
     # Play game
-    if choice == 1
+    if choice == 1:
     # Quit game loop
-    elif choice == 2
+    elif choice == 2:
         break
     # Wrong input
     else:
